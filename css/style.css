@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: 'aquireregular';
+    src: url('../fonts/aquire-bw0ox-webfont.woff2') format('woff2'),
+         url('../fonts/aquire-bw0ox-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'square721_ex_btroman';
+    src: url('../fonts/square721-ex-bt-roman-webfont.woff2') format('woff2'),
+         url('../fonts/square721-ex-bt-roman-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{font-family: 'square721_ex_btroman'; font-weight:600;}
+.w-15{width:15%;}
+.ml-20{margin-left:20px;}
+.pr-0{padding-right:0px !important;}
+.pl-0{padding-left:0px !important;}
+.pt-120{padding-top:120px;}
+header .bg-opacity{z-index:999; position:relative;}
+header{background:#000; width:100%; position:relative;}
+header .header-text h1{color:#fff; text-transform:uppercase; text-align:center; font-size:42px; margin-top:46px; margin-bottom:56px; font-family: 'aquireregular';}
+header .header-text p{color:#fff; text-transform:uppercase; text-align:center; font-size:18px;font-family: 'aquireregular';}
+header .bg-white{background:#fff;}
+header .header-button{text-align:right;}
+header .header-button button{background: #ffc744; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffc744 0%, #e6b700 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ffc744 0%,#e6b700 100%); /* Chrome10-25,Safari5.1-6 */background: linear-gradient(to bottom,  #ffc744 0%,#e6b700 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc744', endColorstr='#e6b700',GradientType=0 ); /* IE6-9 */
+padding:20px 30px; color:#000; text-transform:uppercase; text-decoration:none; font-family:Calibri; font-size:24px; font-weight:600; border:none; margin-top:130px; text-shadow:1px 1px 3px #000;}
+header .header-button button:hover{}
+header .header-img{text-align:center;}
+header .header-img img{max-width:100%;}
+header .logo{text-align:right; margin-top:26px;}
+header .logo img{max-width:160px;}
+.black-logo img{max-width:105px;}
+section{background:#fff; width:100%; position:relative;}
+section .blockchain-technology h1{color:#000; text-transform:uppercase; text-align:center; font-size:42px; margin-top:46px; font-family: 'aquireregular';}
+section .blockchain-technology h4{color:#000; text-transform:uppercase; text-align:center; font-size:34px; margin-bottom:20px; font-family:Calibri; font-weight:500; margin-top:38px;}
+section .photo-source h4{color:#000; text-transform:uppercase; text-align:center; font-size:34px; font-family:Calibri; font-weight:500; margin-top:120px;}
+section .easy-setup-text h1{color:#000; text-transform:uppercase; text-align:center; font-size:42px; margin-top:46px; margin-bottom:20px; font-family: 'aquireregular';}
+section .easy-setup-text ol{}
+section .easy-setup-text li{color:#000; text-transform:uppercase; text-align:left; font-size:30px; font-family:Calibri; font-weight:500; margin-bottom:36px;}
+section .google-cloud h4{color:#000; text-transform:uppercase; font-size:34px; font-family:Calibri; font-weight:500; margin-top:120px;}
+section .follow-up h1{color:#000; text-transform:uppercase; text-align:right; font-size:42px; margin-top:46px; margin-bottom:20px; font-family: 'aquireregular';}
+section .follow-up ul{list-style:none; margin-top:80px;}
+section .follow-up li{display:block; text-align:right;}
+section .follow-up li a{color:#000; font-size:30px; font-family:Calibri; font-weight:500; text-decoration:none;}
+section .follow-up li a:hover{color:#000;}
+.openbtn{padding-top:20px;}
+.openbtn span{font-size:30px;cursor:pointer; color:#fff; padding-right:0px; text-decoration:none;}.openbtn span:hover{color:#fff;}
+.openbtn2 span{color:#000;}
+.openbtn2 span:hover{color:#000;}
+.aside-backdrop{position:fixed; top:0; right:0; bottom:0; left:0; z-index:999; display:none; background-color: rgb(126, 126, 126, .6); transition:0.2s opacity ease;}
+/* end of side bar */
+.aside{min-width:250px; width:15%; position:fixed; top:0; right:0; bottom:0; background-color:#fff; font-family: Helvetica, Arial, sans-serif; z-index:2000; width:0px; min-width:0px;
+overflow:hidden; transition:0.35s width ease, 0.35s min-width ease;}
+.aside .aside-contents{padding:0.5em; padding-bottom:1em; margin-top:40px;}
+.aside-contents a{padding:12px 32px 12px 8px; text-decoration:none; font-size:24px; color:#000;display:block; transition:0.3s; font-family:Calibri; text-transform:uppercase; border-bottom:1px solid #000; text-align:right;}
+.aside-contents a:hover{color:#000;}
+.aside span{float:right; font-size:40px; margin-right:20px; cursor:pointer;}
+.aside.in{width:15%; min-width:250px;}
+.aside-backdrop.in{display:block; opacity:0.5;}
+
+/* Start Inicio Page */
+header .top-tabs{border-bottom:3px solid #000; width:100%; position:relative; float:left;}
+header .top-tabs h3{font-family: 'aquireregular'; color:#000; text-transform:uppercase;     font-size:40px; margin-bottom:0px;}
+header .tabs-text{font-family: 'aquireregular'; color:#000; text-transform:uppercase;     font-size:20px;}
+header .top-tabs li button{background:none !important; color:#000; padding:0px 16.7px; font-family: 'square721_ex_btroman'; text-transform:uppercase;}
+header .top-tabs li button:hover{border-bottom:3px solid #b7b7b7; border-radius:0px !important; background:none !important; color:#000;}
+header .top-tabs li button.active{color:#000 !important; border-bottom:3px solid #b7b7b7; border-radius:0px !important;}
+header .tabs-heading{width:30%; position:relative; float:left;}
+header .tabs-size{width:70%; position:relative; float:left;}
+header .tabs-size ul{margin-bottom:0px !important; margin-top:24px;}
+
+section .circle-style{width:300px;height:300px; /*margin-left:115px;*/ float:left; position:relative; border-radius:50%; margin-right:-60px;}
+section .text-bar-yellow{/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffc743+0,e6b700+100 */
+background: #ffc743; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffc743 0%, #e6b700 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ffc743 0%,#e6b700 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ffc743 0%,#e6b700 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc743', endColorstr='#e6b700',GradientType=0 ); /* IE6-9 */
+font-family: 'square721_ex_btroman'; text-transform:uppercase; text-align:right; padding-right:20px; font-size:14px; padding: 28px 10px 14px 0; color:#fff; box-shadow: 1px 2px 5px #817f7f;}
+section .text-bar-blue{/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#6fa5db+0,448bca+100 */
+background: #6fa5db; /* Old browsers */
+background: -moz-linear-gradient(top,  #6fa5db 0%, #448bca 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #6fa5db 0%,#448bca 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #6fa5db 0%,#448bca 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6fa5db', endColorstr='#448bca',GradientType=0 ); /* IE6-9 */
+font-family: 'square721_ex_btroman'; text-transform:uppercase; text-align:right; padding-right:20px; font-size:14px; padding: 28px 10px 14px 0; color:#fff; box-shadow: 1px 2px 5px #817f7f;}
+section .text-bar-green{/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#80b860+0,61a235+100 */
+background: #80b860; /* Old browsers */
+background: -moz-linear-gradient(top,  #80b860 0%, #61a235 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #80b860 0%,#61a235 100%);/* Chrome10-25,Safari5.1-6 */background: linear-gradient(to bottom,  #80b860 0%,#61a235 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80b860', endColorstr='#61a235',GradientType=0 ); /* IE6-9 */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc743', endColorstr='#e6b700',GradientType=0 ); /* IE6-9 */
+font-family: 'square721_ex_btroman'; text-transform:uppercase; text-align:right; padding-right:20px; font-size:14px; padding: 28px 10px 14px 0; color:#fff; box-shadow: 1px 2px 5px #817f7f;}
+section .text-bar-black{/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#414141+0,000000+100 */
+background: #414141; /* Old browsers */
+background: -moz-linear-gradient(top,  #414141 0%, #000000 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #414141 0%,#000000 100%); /* Chrome10-25,Safari5.1-6*/ background: linear-gradient(to bottom,  #414141 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#414141', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+font-family: 'square721_ex_btroman'; text-transform:uppercase; text-align:right; padding-right:20px; font-size:14px; padding: 28px 10px 14px 0; color:#fff; box-shadow: 1px 2px 5px #817f7f;}
+section .white-bg{position:absolute; content: ''; background:#fff; width:320px; height:320px;
+top:0; border-radius:50%; margin-top:-23px;}
+.custom-circle{width:300px;height:300px; position:relative; z-index:999; left:10px; top:-12px;cursor:pointer;}
+.chartHolder canvas{width:100%;}
+section .custom-form input{border:none; border-bottom:3px solid #000; border-radius:0px; font-size:24px; text-transform:uppercase;}
+section .custom-form label{font-weight:600; text-transform:uppercase; padding-left:12px; text-shadow:1px 2px 3px #817f7f; font-size:20px;}
+section .custom-form p{font-size:17.8px;}
+section .profile-btn button{font-size:22px; text-transform:uppercase; padding:5px 50px; margin-top:12px; box-shadow: 1px 2px 5px #817f7f; width:100%;}
+section .descargas-text{padding-top:30px;}
+section .descargas-img p{font-size:30px; text-align:center; margin-bottom:0px;}
+section .descargas-text p{font-size:38px; font-weight:600; text-transform:uppercase; text-align:center; margin-bottom:30px; text-shadow: 1px 2px 5px #817f7f;}
+section .descargas-img img{margin-top: 60px;}
+/* End Inicio Page */
+
+@media (max-width: 767px){
+header .header-button{text-align:center;}
+header .header-button button{margin-top:30px;}
+section .photo-source h4{margin-top:30px;}
+section .follow-up li{text-align:center;}
+section .follow-up h1{text-align:center;}
+.black-logo{text-align:center;}
+header .tabs-heading{width:100%;}	
+header .tabs-size{width:100%;}
+header .top-tabs li button{font-size:12px; padding:0px 14px;}
+header .menu-btn{position:absolute; top:0; right:0;}
+header .top-tabs h3{text-align:center; margin-top:12px;}
+header .tabs-text{text-align:center;}
+section .custom-form p{font-size:15px;}
+section .profile-btn, section .profile-img{text-align:center;}
+}
+@media (min-width: 768px) and (max-width: 991px){
+section .photo-source h4 {margin-top:30px;}
+header .top-tabs li button{padding:0px 5px; font-size:12px;}
+header .top-tabs h3{font-size:24px;}
+header .tabs-heading{width:26%;}
+header .tabs-size{width:74%;}
+.black-logo img{max-width:105px; width:220%;}
+header .tabs-size ul{margin-top:8px;}
+.openbtn{padding-top:6px;}
+section .profile-btn button{font-size:24px; padding:5px 15px;}
+section .descargas-text p{font-size:30px; margin-bottom:12px;}
+}
+@media (min-width: 991px) and (max-width: 1199px){
+header .tabs-heading{width:24%;}
+header .top-tabs h3{font-size:30px; margin-top:15px;}
+header .tabs-size{width:76%;}
+header .top-tabs li button{padding:0px 10px;}
+section .descargas-text p{font-size:30px; margin-bottom:36px;}
+}
